@@ -8,7 +8,8 @@ describe("enteringCardNumber", () => {
 
   beforeEach(async () => {
     browser = await puppeteer.launch({
-      headless: 'new',
+      headless: "new",
+      args: ["--no-sandbox"],
       slowMo: 100,
       devtools: true,
     });
