@@ -2,7 +2,7 @@ import puppeteer from "puppeteer";
 
 jest.setTimeout(30000);
 
-describe("Page start", () => {
+describe("enteringCardNumber", () => {
   let browser;
   let page;
 
